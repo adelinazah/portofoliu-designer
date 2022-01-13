@@ -1,0 +1,479 @@
+
+footer { 
+		display:flex-root;
+		background-color:AntiqueWhite;
+		padding: 10px 5px;
+		height: 250px;
+		width: auto;
+		}
+
+body {	
+	margin: 0px;
+	background-color: FloralWhite;
+	}
+
+nav {
+	display:flex-root;
+	position:float;
+	margin-bottom:-15px;
+	}
+
+h1 {
+	font-family: "Lucida Handwriting", cursive;
+	font-size: 50px;
+	padding-top:250px;
+	color: white;
+	text-align: center;
+	}
+
+h2 { 
+	font-family: "Lucida Handwriting", cursive;
+	font-size: 40px;
+	padding-top:50px;
+	color: Tan;
+	text-align: center;
+	}
+
+h3 {
+	font-family: "Lucida Handwriting", cursive;
+	font-size: 18px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:15px;
+	color: black;
+	text-align: left;
+	border-style: solid;
+	border-width: 20px 5px; /* 20px top and bottom, 5px on the sides */
+	border-color: Tan;
+	}
+	
+h4 {
+	display:inline-block;
+	font-family: "Lucida Handwriting", cursive;
+	font-size: 15px;
+	float:none;
+	color: tan;
+	font-weight: italic;
+	}
+
+h5 {
+	display:inline-block;
+	font-family: "Lucida Handwriting", cursive;
+	font-size: 19px;
+	float:none;
+	color: black;
+	margin-left: 30px;
+	}
+
+p { 
+	font-family: "Garamond", serif;
+	font-size: 25px;
+	padding-top:50px;
+	color: black;
+	text-align: left;
+	margin: 50px; 
+	}
+
+ul  {
+	font-family: "Garamond", serif;
+	font-size: 35px;
+	text-align:center;
+	list-style-type:none;
+	vertical-align:80%;
+	}
+
+li {
+	font-family:"Garamond", serif;
+	font-style: oblique;
+	font-size: 20px;
+	text-align:center;
+	padding: 10px 10px;
+	margin-top: 10px;
+	width:100%;
+	color:white;
+	background-color:Tan;
+	}
+
+li a {
+	text-decoration:none;
+	color:white;
+	padding-left:600px;
+	padding-top:10px;
+	padding-right:600px;
+	}
+				
+li:hover {	
+		font-weight: bold;
+		background-color:MediumSeaGreen;
+		}
+
+
+section {
+		display:inline-block;
+		}
+
+hr{
+	margin-top:90px;
+	margin-bottom:60px;
+	margin-left:35%;
+	margin-right:35%;
+	}
+	
+iframe {
+		margin-left:450px;
+		}
+
+.pagina-principala {
+					background-image: url("imagini/living.jpeg");
+					background-size: cover;
+					background-position: top;
+					background-repeat: no-repeat;
+					height:750px;
+					}
+					
+.text-logo {
+			margin:0px;
+			font-family: "Lucida Handwriting", cursive;
+			color: black;
+			vertical-align:-30%;
+			margin-left:-110px;
+			margin-bottom: -20px;
+			}
+
+.img-logo {
+			border-radius:50%;
+			margin-top: 5px;
+			margin-left: 15px;
+			}
+			
+.subsol{
+		background-color: AntiqueWhite;
+		font-size: 25px;
+		color:green;
+		text-align:center;
+		position:float;
+		}
+		
+.meniu {
+		display: inline;
+		list-style-type:none;
+		vertical-align:80%;
+		margin-left:90px;
+		margin-top:20px;
+		}	
+		
+.meniu a {
+		text-decoration:none;
+		color:white;
+		}
+		
+.meniu a:hover {
+				font-weight: bold;
+				}
+		
+.item-meniu {	
+			display: inline;
+			font-family:"Copperplate", fantasy;
+			font-style: oblique;
+			font-size: 20px;
+			text-align:center;
+			color: FloralWhite;
+			padding: 10px 5px;
+			margin-top: 10px;
+			margin-left:100px;
+			background-color: none;
+			}
+				
+.item-meniu:hover {
+					background-color:green;
+					}
+					
+.item-meniu a{
+			padding: 10px 10px;
+			}			
+	
+.subtitlu{
+		font-family:"Garamond", serif;
+		text-align: center;
+		font-size:32px;
+		color:white;
+		font-style: italic;
+		border:none;
+		}
+
+.gallery {
+		margin: 5px;
+		float: center;
+		width: 180px;
+		}
+			
+.gallery-portofoliu {
+					margin: 50px;
+					border: 1px solid #ccc;
+					float: left;
+					width: 400px;
+					}	
+
+.img-galerie {
+			width: 100%;
+			height: auto;
+			}
+
+.desc {
+	  padding: 15px;
+	  text-align: center;
+		}	
+
+.img-scopul-nostru{
+					width: 400%;
+					height: auto;
+					margin-top:30px;
+					margin-left:80px;
+					border-radius:50%;
+					}
+
+.img-scop{
+			width: 400%;
+			height: auto;
+			margin-top:-600px;
+			margin-left:700px;
+			border-radius:50%;
+			}
+
+.img-portofoliu{
+				width: 50%;
+				height: auto;
+				margin-top:0px;
+				margin-left:400px;
+				}
+
+.text-special{
+			font-family: "Lucida Handwriting", cursive;
+			font-size: 17px;
+			color: black;
+			margin-left:405px;
+			}
+				
+.container-echipa::after{
+						content:"";
+						clear:both;
+						display:table;
+						}
+					
+.sectiune-echipa{
+				display:inline-block;
+				width:24%;
+				padding:5px;
+				}
+						
+.img-echipa{
+			display:inline-block;
+			border:1px solid black;
+			width: 100%;
+			height: auto;
+			}
+		
+.card-stanga {
+			  /* Add shadows to create the "card" effect */
+				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+				transition: 0.3s;
+				width:28%;
+				display: inline-block;
+				margin-right: 30px;
+				margin-left: 100px;
+				margin-top: 30px;
+				margin-bottom: 30px;
+				}
+
+.card-centru {
+			  /* Add shadows to create the "card" effect */
+				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+				transition: 0.3s;
+				width:28%;
+				display: inline-block;
+				margin-right: 30px;	
+				}
+
+.card-dreapta {
+			  /* Add shadows to create the "card" effect */
+				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+				transition: 0.3s;
+				width:28%;
+				display: inline-block;
+				}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+			}
+
+/* Add some padding inside the card container */
+.descriere-carduri {
+					padding: 2px 16px;
+					}
+
+.img-card {
+			float: center;
+			margin-left: 120px;
+			margin-top: 10px;
+			}
+
+.img-blog-dreapta {
+					width: 40%;
+					height: auto;
+					margin-top:30px;
+					margin-right: 100px; 
+					display:inline-block;
+					float: right;
+					clear: right;
+					}
+
+.img-blog-dreapta:hover {
+						width: 42%;
+						}
+
+.img-blog-stanga:hover {
+						width: 42%;
+						}
+
+.img-blog-stanga {
+				width: 40%;
+				height: auto;
+				margin-top:30px;
+				margin-left: 100px;
+				display:inline-block;
+				float: left;
+				clear: left;
+				}
+
+.titlu-blog {
+			display:inline-block;
+			font-family: "Lucida Handwriting", cursive;
+			font-size: 35px;
+			text-align: center;
+			float:left;
+			color: black;
+			border: none;
+			width: 30%;
+			border-style: outset;
+			margin-left: 200px;
+			margin-top:100px;
+			}
+
+.titlu-blog a{
+			text-decoration:none;
+			color:black;
+			}
+
+.titlu-blog:hover {
+					font-weight: bold;
+					background-color:MediumSeaGreen;
+					font-size: 37px;
+					}
+
+.blog {
+	display:inline-block;
+	}
+
+.subtitlul-blog {
+				font-family: "Garamond";
+				font-size: 30px;
+				margin-left:60px;
+				color: black;
+				text-align: left;
+				border: none;
+				}
+
+.autor {
+		text-align: center;
+		border-style: outset;
+		color: gray;
+		font-size: 20px;
+		padding-top:5px;
+		width:400px;
+		margin-left: 555px;
+		}
+
+.sus-blog-unu {
+				background-image: url("imagini/img-blog-11.jpg");
+				background-size: cover;
+				background-position: top;
+				background-repeat: no-repeat;
+				height:420px;
+				}
+				
+.sus-blog-doi {
+				background-image: url("imagini/img-blog-22.jpg");
+				background-size: cover;
+				background-position: top;
+				background-repeat: no-repeat;
+				height:370px;
+				}
+				
+.sus-blog-trei {
+				background-image: url("imagini/img-blog-33.jpg");
+				background-size: cover;
+				background-position: top;
+				background-repeat: no-repeat;
+				height:450px;
+				}
+				
+.sus-blog-patru {
+				background-image: url("imagini/img-blog-44.jpeg");
+				background-size: cover;
+				background-position: top;
+				background-repeat: no-repeat;
+				height:364px;
+				}
+				
+.titlu-negru {
+			font-family:"Garamond";
+			text-align: center;
+			font-size:45px;
+			color:black;
+			border:none;
+			padding-top:130px;
+			}
+			
+.titlu-alb {
+			font-family:"Garamond";
+			text-align: center;
+			font-size:45px;
+			color:white;
+			border:none;
+			padding-top:100px;
+			}
+			
+.text-contact {
+				border-style: outset;
+				font-family: "Garamond", serif;
+				font-size: 27px;
+				padding-top:5px;
+				color:green;
+				text-align: center;
+				margin-left: 600px;
+				width:400px;
+				background-color:white;
+				}
+
+.text-contact a{
+				text-decoration:none;
+				color:green;
+				}
+
+.text-contact:hover {
+					font-weight: bold;
+					font-size: 30px;
+					background-color: orange;
+					}
+					
+.ancore {
+		color: green;
+		text-decoration: none;
+		font-weight: bold;
+		}			
+
+.ancore:hover {
+				color:orange;
+				font-style: italic;
+				}	
